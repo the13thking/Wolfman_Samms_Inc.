@@ -37,16 +37,24 @@ div {
 	text-align: center;
 }
 
-#overnight {
-	position: absolute;
-	z-index: 2;
-	top: 40%;
-}
-
-.textNight{
-	font-size: 45px;
+.textNight {
+	font-size: 55px;
 	font-family: 'Shadows Into Light';
 	color: #DADAC5;
+	position: absolute;
+	z-index: 2;
+	bottom: 15%;
+	left:35%;
+}
+
+.textPACK {
+	font-size: 40px;
+	font-family: 'Shadows Into Light';
+	color: #DADAC5;
+	position: absolute;
+	z-index: 2;
+	top: 10%;
+	right:15%;
 }
 
 .text {
@@ -100,7 +108,7 @@ div {
 }
 
 .sSpacer {
-	height: 30%;
+	height: 20%;
 	display: block;
 }
 
@@ -117,10 +125,6 @@ div {
 .midlowerlogos {
 	width: 40px;
 	height:40px;
-}
-
-#eftbottom {
-	margin-top: 80%;
 }
 
 .rightlowerlogos {
