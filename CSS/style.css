@@ -12,7 +12,7 @@ div {
 
 .left {
 	height: 100vh;
-	width: 260px;
+	width: 210px;
 	background-color: black;
 	position: relative;
 	text-align: center;
@@ -21,19 +21,20 @@ div {
 
 .middle {
 	height: 100vh;
-	width: 500px;
+	width: 510px;
 	position: relative;
 	margin-left:0;
+	margin-right: 0;
 }
 
 #logo {
-	width: 260px;
+	width: 210px;
 	margin-bottom: 65px;
 }
 
 .night {
 	height: 100%;
-	width:500px;
+	width:510px;
 	text-align: center;
 }
 
@@ -45,16 +46,6 @@ div {
 	z-index: 2;
 	bottom: 15%;
 	left:35%;
-}
-
-.textPACK {
-	font-size: 40px;
-	font-family: 'Shadows Into Light';
-	color: #DADAC5;
-	position: absolute;
-	z-index: 2;
-	top: 10%;
-	right:15%;
 }
 
 .text {
@@ -70,21 +61,22 @@ div {
 
 .right {
 	float: right;
-	background-color: red;
+	background-color: yellow;
 	height: 100vh;
-	width: 504px;
+	width: 544px;
+	margin-left: 0;
 }
 
 #top {
 	height: 50%;
-	width: 504px;
+	width: 100%;
 	background-color: yellow;
 	display: block;
 }
 
 #bottom {
 	height: 50%;
-	width: 504px;
+	width: 100%;
 	background-color: blue;
 	display: block;
 }
@@ -93,14 +85,14 @@ div {
 	height: 100%;
 }
 
-#bleft {
+#tleft {
 	float: left;
 	width: 50%;
 	height: 100%;
 	background-color: red;
 }
 
-#bright {
+#tright {
 	float: right;
 	width: 50%;
 	height: 100%;
@@ -132,10 +124,22 @@ div {
 	height:40px;
 }
 
+.wolfGif {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
 
-
-
-
+.textPACK {
+	font-size: 40px;
+	font-family: 'Shadows Into Light';
+	color: #DADAC5;
+	position: absolute;
+	z-index: 2;
+	bottom: 15%;
+	right:15%;
+}
 
 
 
