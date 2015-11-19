@@ -12,7 +12,7 @@ div {
 
 .left {
 	height: 100vh;
-	width: 210px;
+	width: 16%;
 	background-color: black;
 	position: relative;
 	text-align: center;
@@ -21,7 +21,7 @@ div {
 
 .middle {
 	height: 100vh;
-	width: 510px;
+	width: 42%;
 	position: relative;
 	margin-left:0;
 	margin-right: 0;
@@ -34,7 +34,7 @@ div {
 
 .night {
 	height: 100%;
-	width:510px;
+	width:100%;
 	text-align: center;
 }
 
@@ -63,7 +63,7 @@ div {
 	float: right;
 	background-color: yellow;
 	height: 100vh;
-	width: 544px;
+	width: 42%;
 	margin-left: 0;
 }
 
@@ -131,17 +131,25 @@ div {
 	padding: 0;
 }
 
-.textPACK {
+.textTemp {
 	font-size: 40px;
 	font-family: 'Shadows Into Light';
 	color: #DADAC5;
 	position: absolute;
 	z-index: 2;
 	bottom: 15%;
-	right:15%;
+	right:10%;
 }
 
-
+.thePackText{
+	font-size: 30px;
+	font-family: 'Shadows Into Light';
+	color: #DADAC5;
+	position: absolute;
+	z-index: 2;
+	top: 25%;
+	right:28%;
+}
 
 
 
